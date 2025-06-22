@@ -28,8 +28,8 @@ const RecordChart = async () => {
   }
 
   return (
-    <div className='bg-[#1f2937] flex items-center justify-center'>
-      <div className='bg-[#1f2937] shadow-lg rounded-2xl p-8 w-full'>
+    <div className='bg-[#000000] flex items-center justify-center'>
+      <div className='bg-[#111827] shadow-lg rounded-2xl p-8 w-full'>
         <h3 className='text-2xl font-bold text-center mb-6 bg-gradient-to-r from-cyan-500 via-teal-400 to-emerald-500 bg-clip-text text-transparent'>
           Sleep Records Chart
         </h3>
