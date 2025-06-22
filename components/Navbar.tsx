@@ -12,7 +12,7 @@ export default async function Navbar() {
         <div className='flex items-center justify-between h-16'>
           <div className='flex items-center'>
             <Link href='/' className='flex-shrink-0'>
-              <span className='text-md sm:text-2xl font-bold bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 bg-clip-text text-transparent'>
+              <span className="text-md sm:text-2xl font-bold bg-gradient-to-r from-cyan-500 via-teal-400 to-emerald-500 bg-clip-text text-transparent hover:text-emerald-300 transition-colors duration-200">
                 SleepTracker
               </span>
             </Link>
@@ -21,21 +21,24 @@ export default async function Navbar() {
           <div className='flex items-center space-x-4'>
             <Link
               href='/'
-              className='text-gray-700 hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium hidden sm:block'
+              className="bg-gradient-to-r from-cyan-500 via-teal-400 to-emerald-500 bg-clip-text text-transparent hover:text-emerald-300 transition-colors duration-200 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-semibold hidden sm:block"
+
             >
               Home
             </Link>
 
             <Link
               href='/about'
-              className='text-gray-700 hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium '
+              className="bg-gradient-to-r from-cyan-500 via-teal-400 to-emerald-500 bg-clip-text text-transparent hover:text-emerald-300 transition-colors duration-200 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium"
+
             >
               About
             </Link>
 
             <SignedOut>
               <SignInButton>
-                <button className='w-full sm:w-auto bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-purple-600 hover:via-pink-600 hover:to-red-600 text-white sm:px-4 sm:py-2 px-3 py-1 text-sm sm:text-md rounded-md font-medium cursor-pointer'>
+                <button className="w-full sm:w-auto bg-gradient-to-r from-emerald-500 via-teal-400 to-cyan-500 hover:from-emerald-600 hover:via-teal-500 hover:to-cyan-600 text-white sm:px-4 sm:py-2 px-3 py-1 text-sm sm:text-md rounded-md font-medium cursor-pointer"
+>
                   Sign In
                 </button>
               </SignInButton>
