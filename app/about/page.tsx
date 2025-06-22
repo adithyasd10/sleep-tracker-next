@@ -16,7 +16,7 @@ const AboutPage = () => {
       <div className="border-t border-emerald-500/20 mx-8" />
 
       {/* Mission Section */}
-      <section className="py-16 px-8 bg-[#0a0a0a]">
+      <section className="py-16 px-8 bg-[#111827]">
         <h2 className="text-3xl font-bold text-center mb-8 text-md sm:text-2xl bg-gradient-to-r from-cyan-500 via-teal-400 to-emerald-500 bg-clip-text text-transparent hover:text-emerald-300 transition-colors duration-200">
           Our Mission
         </h2>
@@ -59,7 +59,7 @@ const AboutPage = () => {
     <div className="border-t border-emerald-500/20 mx-8" />
 
       {/* Call to Action Section */}
-      <section className="py-16 px-8 bg-[#0a0a0a] text-center">
+      <section className="py-16 px-8 bg-[#111827] text-center">
         <h2 className="text-3xl font-bold mb-4 text-md sm:text-2xl bg-gradient-to-r from-cyan-500 via-teal-400 to-emerald-500 bg-clip-text text-transparent hover:text-emerald-300 transition-colors duration-200">
           Ready to Sleep Smarter?
         </h2>

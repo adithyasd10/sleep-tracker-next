@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Logo and Tagline */}
           <div className="text-center md:text-left mb-4 md:mb-0">
             <h2 className="text-lg font-bold bg-gradient-to-r from-cyan-500 via-teal-400 to-emerald-500 bg-clip-text text-transparent">
-              SleepTracker
+              LunaLog
             </h2>
             <p className="text-gray-400 text-sm">
               Track your sleep, improve your health.

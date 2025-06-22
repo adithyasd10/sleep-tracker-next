@@ -13,7 +13,7 @@ export default async function Navbar() {
           <div className='flex items-center'>
             <Link href='/' className='flex-shrink-0'>
               <span className="text-md sm:text-2xl font-bold bg-gradient-to-r from-cyan-500 via-teal-400 to-emerald-500 bg-clip-text text-transparent hover:text-emerald-300 transition-colors duration-200">
-                SleepTracker
+                LunaLog
               </span>
             </Link>
           </div>
