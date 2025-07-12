@@ -6,7 +6,7 @@ const AboutPage = () => {
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center py-16 px-8">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 text-md sm:text-2xl bg-gradient-to-r from-cyan-500 via-teal-400 to-emerald-500 bg-clip-text text-transparent hover:text-emerald-300 transition-colors duration-200">
-          About SleepTracker
+          About LunaLog
         </h1>
         <p className="text-lg md:text-xl max-w-2xl text-md sm:text-2xl font-bold bg-gradient-to-r from-cyan-500 via-teal-400 to-emerald-500 bg-clip-text text-transparent hover:text-emerald-300 transition-colors duration-200">
           A smarter way to monitor and enhance your sleep—backed by science and built for everyone.
@@ -32,7 +32,7 @@ const AboutPage = () => {
       {/* Features Section */}
       <section className="py-16 px-8 bg-[#0a0a0a]">
         <h2 className="text-3xl font-bold text-center mb-8 text-md sm:text-2xl bg-gradient-to-r from-cyan-500 via-teal-400 to-emerald-500 bg-clip-text text-transparent hover:text-emerald-300 transition-colors duration-200">
-          Why Choose SleepTracker?
+          Why Choose LunaLog?
         </h2>
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-[#1f2937] p-6 rounded-md shadow-md">
