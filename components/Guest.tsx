@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Guest = () => {
   return (
-    <div className="font-sans bg-[#0a0a0a] text-white">
+    <div className="font-sans bg-black text-white">
       {/* Hero Section */}
       <div className="flex flex-col-reverse md:flex-row items-center justify-between px-4 sm:px-8 md:px-16 py-16 md:py-24 gap-8 max-w-7xl mx-auto">
         <div className="flex-1">
